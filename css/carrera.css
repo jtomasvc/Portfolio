@@ -1,0 +1,40 @@
+.texto-carrera {
+    font-size: 24px;
+    margin-top: 40px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.compartir-texto {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.icono-flecha {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width:768px) {
+    .carrera {
+        margin-top: 100px;
+    }
+
+    .icono-flecha {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .carrera {
+        margin-top: 200px;
+    }
+
+    .icono-flecha {
+        margin-bottom: 200px
+    }
+}
